@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #3b3839;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+
+.applogo{
+    display: flex;
+    align-items: center ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+
+.applogo img{
+    /* display: flex;
+    align-items: center; */
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.container{
+    background-color: black;
+    min-height: 78vh;
+    /* width: 300vh; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    border-radius: 20px;
+    background-image: url('1.jpg');
+    padding: 45px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 90px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    flex-direction: column;
+    
+    
+}
+
+#progressbar{
+    /* text-align: center; */
+    width: 80vw;
+    margin-top: 45px;
+    cursor: pointer;
+    
+    
+}
+
+.icons{
+    margin-bottom: -36px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#ico1{
+    padding-right: 4px;
+}
+
+#ico2{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+/* #ico3{
+    padding-left: 4px;
+} */
+
+.card{
+    background-color: #53575782;
+    margin:25px;
+    border-radius: 10px;
+    height: 270px;
+    
+}
+
+.card img{
+    border-radius: 15px;
+    
+}
+.card-body{
+    display: flex;
+    align-items: center;
+}
+
+.card-body p{
+    color: white;
+}
+
+.card-body i{
+    color: green;
+    margin: 5px;
+    cursor: pointer;
+}
